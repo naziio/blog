@@ -15,7 +15,7 @@
                     </div>
 
                     <div class="panel-body">
-                        <p>{{ $post->body }}</p>
+                        <pre>{{ $post->body }}</pre>
 
                         <p><strong>Category: </strong>{{ $post->category->name }}</p>
                         <p><strong>Tags: </strong>{{ $post->tags->implode('name', ', ') }}</p>
