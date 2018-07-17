@@ -1,1 +1,9 @@
-node_modules
+/node_modules
+/blog/public/storage
+/blog/public/hot
+/blog/storage/*.key
+/blog/vendor
+/blog/.idea
+/blog/Homestead.json
+/blog/Homestead.yaml
+/blog/.env
